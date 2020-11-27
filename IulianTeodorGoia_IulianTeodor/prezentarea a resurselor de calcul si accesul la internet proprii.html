@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="catalog_styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  background-color: #5c7789;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1350px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<h1>Iulian Teodor GOIA</h1>
+<p1><a href="Goia.Ma.Iulian@utcluj.didatec.ro">Goia.Ma.Iulian@utcluj.didatec.ro</a></p1>
+<p>‫‫‫</p>
+<p><b>Specificatii tehnice ale statiei principale de lucru</b></p>
+<table style="width:80%">
+  <tr>
+    <td><b>Denumire componenta</b></td>
+    <td><b>Parametri</b></td>
+    <td><b>Producator</b></td>
+  </tr>
+  <tr>
+    <td>CPU - Intel Core™ i5-10400F</td>
+    <td style="text-align:left">
+- Socket: FCLGA1200<br>
+- Numar nuclee: 6<br>
+- Numar thread-uri: 12<br>
+- Frecventa: 2,9 Ghz<br>
+- Frecventa turbo: 4,3 Ghz<br>
+- Smart Cache: 12 Mb<br>
+- Putere totala disipata: 65 W<br>
+- Model grafica integrate: Fara grafica integrata<br>
+- Tip suport memorie: DDR4<br>
+- Frecventa memorie maxima: 2666 Mhz<br>
+- Suport: Dual channel<br>
+- Memorie maxima: 128 Gb<br>
+- Dimensiune: 37,5 mm X 37,5 mm<br>
+- T JUNCTION: 100°C<br>
+- Nucleu: Comet Lake<br>
+- Revizie PCI Express: Fara<br>
+- Max PCI Express Lanes: X16<br>
+</td>
+    <td>Intel</td>
+  </tr>
+  <tr>
+    <td>Placa de bază - GIGABYTE B460M<br> DS3H AC</td>
+    <td style="text-align:left">
+- CPU Socket: 1200<br>
+- Chipset: B460<br>
+- Procesoare suportate: Intel Core, Pentium, Gold si Celeron a 10-a generatie<br>
+- Socket-uri procesor: 1<br>
+- Tip memorie: DDR4<br>
+- Capacitate maxima memorie RAM (MB): 128 GB<br>
+- Frecventa memorie (Mhz): 2933/2666/2400/2133<br>
+- Suport Dualchannel: Da<br>
+- Sloturi memorie: 4<br>
+- Audio integrat: Realtek ALC887 codec<br>
+- LAN integrat: Realtek GbE LAN<br>
+- RAID integrat: 0, 1, 5, 10<br>
+- Rata de transfer SATA (MB/s): 6000<br>
+- Porturi seriale: 2<br>
+- Sloturi PCI-E x16: 1<br>
+- Sloturi PCI-E x1: 2<br>
+- Sloturi speciale 1 x M.2<br>
+- BIOS si memorie BIOS: AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0<br>
+- Format: Micro ATX<br>
+- Dimensiuni: 24.4 x 22.5 cm<br>
+</td>
+    <td>GIGABYTE</td>
+  </tr>
+<tr>
+    <td>RAM - 8GB DDR4-2666MHz ADATA</td>
+    <td style="text-align:left">
+- Tip: DDR4<br>
+- Frecventa: 2666MHz<br>
+- Capacitate: 8 GB<br>
+- Voltaj: 1,2 V<br>
+- Latenta CAS: CL17<br>
+- Format: SODIMM<br>
+- Temperatura de operare: 0 - 85 °C<br>
+- Numar de pini: 288<br>
+- RoHS: Da<br>
+- Latime de banda de transfer: pana la 17 Gb/s<br>
+</td>
+    <td>Kingston</td>
+  </tr>
+<tr>
+    <td>Placă Grafică - GeForce GTX 1660 </td>
+    <td style="text-align:left">
+- Rezolutie maxima: 7680x4320 pixeli<br>
+- Racire: OC<br>
+- Producator chipset: NVIDIA<br>
+- Tehnologie de fabricatie: 12 nm<br>
+- Procesor grafic: Turing TU116<br>
+- GPU Boost clock: 1830 Mhz<br>
+- Versiune Pixel Shader: 5.0<br>
+- Versiune Vertex Shader: 5.0<br>
+- Texture Units: 88<br>
+- Raster Operators: 48<br>
+- CUDA Cores: 1408<br>
+- Tip memorie: GDDR6<br>
+- Dimensiune memorie: 6 GB<br>
+- BUS memorie: 192 bit<br>
+- Frecventa memorie efectiva: 14000 Mhz<br>
+- Suport DirectX: 12.1<br>
+- Suport OpenGL: 4.5<br>
+- Suport OpenCL: 1.2<br>
+- Suport Vulkan: Da<br>
+- Suport G-Sync: Da<br>
+- VR Ready: Da<br>
+- Sistem racire: Activ<br>
+- Dimensiune racire: Dual slot<br>
+</td>
+    <td>GIGABYTE</td>
+  </tr>
+<tr>
+    <td>Placă rețea - TP-Link Archer T4E</td>
+    <td style="text-align:left">
+- Tip antena: 2 antene detasabile Dual Band <br>
+- Standarde Wireless:<br>
+<br>
+IEEE 802.11ac/n/a 5 Ghz<br>
+IEEE 802.11n/g/b 2.4 Ghz<br>
+<br>
+- Rata de semnal:<br>
+<br>
+5 GHz<br>
+11ac: Până la 867 Mbps(dynamic)<br>
+11n: Până la 300 Mbps(dynamic)<br>
+11a: Până la 54 Mbps(dynamic)<br>
+<br>
+2.4 GHz<br>
+11n: Până la 300 Mbps(dynamic)<br>
+11g: Până la 54 Mbps(dynamic)<br>
+11b: Până la 11 Mbps(dynamic)<br>
+<br>
+- Sensibilitate la receptor:<br>
+<br>
+5 GHz :
+11ac HT80: -59.5 dBm<br>
+11ac HT40: -63 dBm<br>
+11ac HT20: -68 dBm<br>
+11n HT40: -70 dBm<br>
+11n HT20: -73 dBm<br>
+11a 54Mbps: -76 dBm<br>
+11a 6Mbps: -92 dBm<br>
+<br>
+2.4GHz :<br>
+11n HT40: -67.5 dBm<br>
+11n HT20: -70 dBm<br>
+11g 54Mbps: -72 dBm<br>
+11b 11Mbps: -86.5 dBm<br>
+<br>
+- Putere de transmisie:<br>
+<br>
+5 GHz : 24 dBm(FCC) / 23dBm(CE) (EIRP)<br>
+2.4 GHz : 25 dBm(FCC) / 20dBm(CE) (EIRP)<br>
+<br>
+- Securitate Wireless: Suportă 64/128 bit WEP, WPA/WAP2, WPA-PSK/WPA2-PSK, 802.1x<br>
+- Tehnologie de modulare: DBPSK, DQPSK, CCK, OFDM, 16-QAM, 64-QAM, 256-QAM<br>
+</td>
+    <td>TP-Link</td>
+  </tr>
+<tr>
+    <td>Cooler - Noctua LGA115x</td>
+    <td style="text-align:left">
+- Tip racire: Aer<br>
+- Racire: Activ<br>
+- Bearing ventilator: SSO 2<br>
+- Numar heatpipe-uri: 6<br>
+- Inaltime: 165 mm<br>
+- Numar ventilatoare: 2<br>
+- Dimensiune ventilator: 140 mm<br>
+-  PWM ventilator: Da<br>
+- Viteza de rotatie: 300 – 1500 RPM<br>
+- Flux aer: 115.5 – 140.2 m3/h<br>
+- Nivel zgomot ventilator: 19.2 – 24.6 dBA<br>
+- Greutate: 1320 g<br>
+- Dimensiuni generale: 165 x 161 x 150 mm<br>
+- Altele: MTBF > 150.000 h<br>
+</td>
+    <td>Noctua</td>
+  </tr>
+<tr>
+    <td>Sursa - Seasonic S12III-550</td>
+    <td style="text-align:left">
+- Tip: ATX 12V<br>
+- Putere: 550 W<br>
+- Numar ventilatoare: 1x 120 mm<br>
+- Voltaj/Amperaj: 110-240Vac<br>
+- PFC: Active<br>
+- Eficienta: 85%<br>
+- Certificare: 80+ Bronze<br>
+- Dimensiuni: 140 x 150 x 86 mm<br>
+- Modulara: Nu<br>
+- Protectii: OPP, OVP, UVP, SCP<br>
+- Platforma OEM: Seasonic<br>
+- Voltaje/Amperaje:<br>
+  Rail<br>
+  +12V – 1A<br>
+  +3.3V – 30A<br>
+  +5V – 20A<br>
+  +12V 1 – 45.4A<br>
+  -12V – 0.3A<br>
+  +5Vsb – 2.5A <br>
+</td>
+    <td>Seasonic</td>
+  </tr>
+<tr>
+    <td>Stocare - ADATA SU630 SSD</td>
+    <td style="text-align:left">
+- Tip SSD: Intern<br>
+- Quad-level Cell: Da<br>
+- Form factor: 2.5 inch<br>
+- Suport NVMe: Nu<br>
+- Capacitate: 480 GB<br>
+- Citire maxima: 520 MB/s<br>
+- Scriere maxima: 450 MB/s<br>
+- Random 4KB citire: 40K IOPS max. <br>
+- Random 4KB scriere: 65K IOPS max.<br>
+- Inaltime: 7 mm<br>
+- Greutate: 47.5 g<br>
+- Rezistenta la soc: 1500G<br>
+- MTBF: 1.500.000 ore<br>
+- Tempertura operare: 0-70 grade C<br>
+- Total Bytes Written: 100 TB<br>
+- Dimensiuni: 100.45 x 69.85 x 7 mm<br>
+</td>
+    <td>ADATA</td>
+  </tr>
+<tr>
+    <td>Carcasă - SilentiumPC Regnum RG6V EVO TG ARGB</td>
+    <td style="text-align:left">
+- Tip Carcasa: MiddleTower<br>
+- Pozitionare sursa: jos<br>
+- Culoare: Negru<br>
+- Sursa: Fara sursa<br>
+- Bays 3.5 interne: 2<br>
+- Bays 2.5 interne: 4 (2 convertite din 3.5)<br>
+- Dimensiuni (H x D x W): 470 x 443 x 221 mm<br>
+- Greutate: 6.12 kg<br>
+- Panou lateral transparent: Da, tempered glass<br>
+- Sloturi expansiune: x7<br>
+- Suport radiator: <br>
+Fata – 1 x 123/240/280/360mm<br>
+Spate - 1 x 120mm<br>
+Tavan – 1 x 120/140/240/280mm<br>
+- Inaltime cooler CPU: 162 mm (Max)<br>
+- Lungime video GPU: 360mm (Max)<br>
+- Iluminare LED: ARGB<br>
+- Total ventilatoare incluse: 4<br>
+- Numar maxim compatibile: 8<br>
+</td>
+    <td>SilentiumPC</td>
+  </tr>
+<tr>
+    <td>Sistem de operare - Windows 10 Pro</td>
+    <td style="text-align:left">
+- Varianta de comercia-lizare: DVD<br>
+- Tip licenta: OEM<br>
+- Tip sistem de operare: Client<br>
+- Utilizare: Business<br>
+- Versiune: Windows 10<br>
+- Numar utilizatori: 1<br>
+- Arhitectura: 64 biti<br>
+- Limba: Romana<br>
+- Capacitate memorie RAM: 1 GB<br>
+- Capacitate stocare: 16 GB<br>
+</td>
+    <td>Microsoft</td>
+  </tr>
+</table>
+<p>‫‫‫</p>
+<div id="div1">
+<p><b>Structura retelei personale si accesul la internet</b></p>
+<img src="Imagine1.png" style="width: 600px; margin-right: auto; opacity: 0.9;">
+<p><b>Caracteristicile conexiunii la retea</b></p>
+<pre>
+a.  Adresa MAC: 40-EC-99-4D-73-E9<br>
+b.  Adresa IP: 192.168.0.103<br>
+c.  Debit la download: 67.91 Mbps<br>
+d.  Debit la upload: 73.38 Mbps<br>
+</pre>
+</div>
+<p><b>Utilizarea resurselor (slideshow)</b></p>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="row">
+  <div class="column">
+    <img src="CPU.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Disk 0.png"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Disk 1.png"  style="width:100%">
+  </div>
+  </div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="row">
+  <div class="column">
+    <img src="Disk 0.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Disk 1.png"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Memorie.png"  style="width:99%">
+  </div>
+  </div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="row">
+  <div class="column">
+    <img src="Disk 1.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Memorie.png"  style="width:99%">
+  </div>
+  <div class="column">
+    <img src="Porturi1.png"  style="width:95%">
+  </div>
+  </div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+<div class="row">
+  <div class="column">
+    <img src="Memorie.png" style="width:99%">
+  </div>
+  <div class="column">
+    <img src="Porturi1.png"  style="width:95%">
+  </div>
+  <div class="column">
+    <img src="Procese_Servicii.png"  style="width:95%">
+  </div>
+  </div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>   
+ </div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); 
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  background-color: #fabf8f;
+  color: #b4a1c5;
+  text-align: left;
+  font-family: Verdana;
+  padding: 3px;
+  border: 5px solid black;
+}
+p1 {
+  text-align: left;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 0.1cm;
+}
+p {
+  font-family: Verdana;
+  color: #4d6c9f;
+  font-size: 18px;
+  line-height: 0.5cm;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+pre {
+  font-family: Verdana;
+  font-size: 16px;
+  line-height: 0.3cm;
+  color: black;
+}
+table, th, td {
+  font-size: 18px;
+  font-family: Verdana;
+  border-collapse: collapse;
+  border: 3.5px solid #8266a3;
+  text-align: center;
+  padding: 3px;
+}
+#div1 {
+  background-color: #dbeef4;
+  width: 1000px;
+  border: 3.5px solid #c0504d;
+  padding: 10px;
+  margin: 8px;
+}
+}
